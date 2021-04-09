@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
               .snapshots(),
           builder: (context, snapshot) {
             if (!snapshot.hasData) {
-              return Loading();
+              return Loader();
             } else {
               List<WeightModel> weightItems = snapshot.data.docs
                   .map((item) => WeightModel(

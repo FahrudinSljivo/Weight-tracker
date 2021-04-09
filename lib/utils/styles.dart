@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class addWeightScreenStyles {
+class AddWeightScreenStyles {
   inputFieldStyle({String labelText}) {
     return InputDecoration(
       labelText: labelText,

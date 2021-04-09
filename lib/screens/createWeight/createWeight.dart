@@ -25,7 +25,7 @@ class _CreateWeightState extends State<CreateWeight> {
     final user = Provider.of<UserModel>(context);
     SizeConfig().init(context);
     return loading
-        ? Loading()
+        ? Loader()
         : Scaffold(
             backgroundColor: Colors.grey[300],
             appBar: AppBar(

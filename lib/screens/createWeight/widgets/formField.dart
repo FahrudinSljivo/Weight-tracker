@@ -29,7 +29,7 @@ class NewSessionFormField extends StatelessWidget {
               return null;
             },
             keyboardType: TextInputType.number,
-            decoration: addWeightScreenStyles()
+            decoration: AddWeightScreenStyles()
                 .inputFieldStyle(labelText: addWeightFormFieldPlaceholder),
           ),
         ),
